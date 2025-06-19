@@ -25,4 +25,10 @@ The following are ways in which the engineering has been taken in AI
 7. it uses distinction metta graphs where programs are run and uses cury-howards correspondace. For more [[7th]]
 8. intelligence should not be qunatified by a single value but it can have emergent quantifieable values like joy and growth.
 9. Formalization of "goal-achievement skill" aspect of intelligence of AIT is interesting.
-10. 
+10. The 10th point refers "Maximal Algorthmic Caliber1" which needs further checking
+11. cognitive synergy is critical to achieve AGI via different sort of learning processes can interact and share internal state to help with dead-locks and bottlenecks.
+12. 
+
+## Patternist Philosophy of Mind
+
+- Gaps between practical AGI and *phylosophy of mind* is not entierly obvious
