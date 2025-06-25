@@ -23,6 +23,16 @@
 			- and the associated weight being w<sub>j</sub> = ∅<sub>k</sub> (x<sub>{k}</sub>)
 
 	- Inference in Markov networks is hard because calculating exact probabilities has an exponential time complexity.
-		- instead of calculating exact probabliliteis for infference we use approxitmate probablities.
-			- usally used Markov Chain Monte Carlo (MCMC)
+		- instead of calculating exact probabilities for inference we use approximate probabilities.
+			- usually used Markov Chain Monte Carlo (MCMC)
 			- Another popular method is **belief propagation** 
+	- The weights of the Markov model can be found by using a gradient algorithm on the log likelihood. when using gradient algorithms we are comparing the output probability of the functions to the probability observed by the data
+
+- **First-Order Logic**
+	- A first order knowledge base is a set of sentences or formulas in [[First order logic]]
+		- Formulas are constructed using four type of symbols:
+			- constants: Define objects in domain of interest.
+			- Variables:  These objects range over Objects in the domain.
+			- Functions: Represent mappings from tuple of objects to objects.
+			- Predicates: Relations among objects in the domain or attributes of objects.
+		- 
