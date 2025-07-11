@@ -1,0 +1,182 @@
+{
+  "main": {
+    "id": "234c01aa365d48f3",
+    "type": "split",
+    "children": [
+      {
+        "id": "9d69875aee67e452",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "501b163f893c0fa6",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "6d8ca0538b99c0c0",
+    "type": "split",
+    "children": [
+      {
+        "id": "27732d3aa9d37a7a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d7e779ed4c178025",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "b5b3daca1eaa3062",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "ac269aabf3662f5b",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "59a80fb460966f48",
+    "type": "split",
+    "children": [
+      {
+        "id": "a80e1bedd1c727d8",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "dfb044a5281711fd",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks"
+            }
+          },
+          {
+            "id": "9a42b2e080e017dc",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links"
+            }
+          },
+          {
+            "id": "e91c7134748c7550",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "18d1b62f5f8619a6",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "501b163f893c0fa6",
+  "lastOpenFiles": [
+    "Welcome.md",
+    "Probabilistic Logic Network.md",
+    "Pasted image 20250625163834.png",
+    "MLN ground Assumptions.md",
+    "MLN example.md",
+    "Markov logic Networks.md",
+    "log-linear.md",
+    "Horn clause.md",
+    "First order logic.md",
+    "DEFINITION 4.1. A Markov logic network.md",
+    "Probabilistic Logic Neural Networks for Reasoning.md",
+    "AIT.md",
+    "A Pragmatic Patternist Perspective.md",
+    "7th.md",
+    "Laws of Form.md"
+  ]
+}
