@@ -8,13 +8,17 @@
         "type": "tabs",
         "children": [
           {
-            "id": "501b163f893c0fa6",
+            "id": "48d12e3966763e34",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "markdown",
+              "state": {
+                "file": "PLN/Probabilistic logic networks/PLN (Ben Goertzel).md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "PLN (Ben Goertzel)"
             }
           }
         ]
@@ -74,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "59a80fb460966f48",
@@ -161,22 +166,28 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "501b163f893c0fa6",
+  "active": "48d12e3966763e34",
   "lastOpenFiles": [
+    "PLN/Probabilistic logic networks/PLN (Ben Goertzel).md",
+    "PLN/Probabilixtic Logic Neural Networks/Probabilistic Logic Network.md",
+    "PLN/Probabilistic logic networks",
+    "PLN/Probabilixtic Logic Neural Networks/Probabilistic Logic Neural Networks for Reasoning.md",
+    "PLN/Probabilixtic Logic Neural Networks",
+    "PLN/Markov Logic Network/Pasted image 20250625163834.png",
+    "Patternist Theory/log-linear.md",
+    "PLN/Markov Logic Network",
+    "PLN",
+    "Patternist Theory",
     "Welcome.md",
-    "Probabilistic Logic Network.md",
-    "Pasted image 20250625163834.png",
-    "MLN ground Assumptions.md",
-    "MLN example.md",
-    "Markov logic Networks.md",
-    "log-linear.md",
-    "Horn clause.md",
-    "First order logic.md",
-    "DEFINITION 4.1. A Markov logic network.md",
-    "Probabilistic Logic Neural Networks for Reasoning.md",
-    "AIT.md",
-    "A Pragmatic Patternist Perspective.md",
-    "7th.md",
-    "Laws of Form.md"
+    "PLN/Markov Logic Network/MLN ground Assumptions.md",
+    "PLN/Markov Logic Network/MLN example.md",
+    "PLN/Markov Logic Network/Markov logic Networks.md",
+    "Patternist Theory/Horn clause.md",
+    "PLN/Markov Logic Network/First order logic.md",
+    "PLN/Markov Logic Network/DEFINITION 4.1. A Markov logic network.md",
+    "Patternist Theory/AIT.md",
+    "Patternist Theory/A Pragmatic Patternist Perspective.md",
+    "Patternist Theory/7th.md",
+    "Patternist Theory/Laws of Form.md"
   ]
 }
