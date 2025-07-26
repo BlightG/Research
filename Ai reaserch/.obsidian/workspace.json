@@ -20,6 +20,16 @@
               "icon": "lucide-file",
               "title": "PLN (Ben Goertzel)"
             }
+          },
+          {
+            "id": "f895a6e1e808836d",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
+            }
           }
         ]
       }
@@ -78,8 +88,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "59a80fb460966f48",
@@ -168,13 +177,20 @@
   },
   "active": "48d12e3966763e34",
   "lastOpenFiles": [
+    "Patternist Theory/log-linear.md",
+    "Logic basics/Direct Probabilistic Dependency.md",
+    "Logic basics/Conditional Independencies.md",
     "PLN/Probabilistic logic networks/PLN (Ben Goertzel).md",
+    "Logic basics/Directed Acyclic Graph (DAG).md",
+    "Logic basics/Abductive Reasoning (Inference to the Best Explanation).md",
+    "Logic basics/Deductive reasoning (General to Specific).md",
+    "Logic basics/Inductive Reasoning (Specific to General).md",
+    "Logic basics",
     "PLN/Probabilixtic Logic Neural Networks/Probabilistic Logic Network.md",
     "PLN/Probabilistic logic networks",
     "PLN/Probabilixtic Logic Neural Networks/Probabilistic Logic Neural Networks for Reasoning.md",
     "PLN/Probabilixtic Logic Neural Networks",
     "PLN/Markov Logic Network/Pasted image 20250625163834.png",
-    "Patternist Theory/log-linear.md",
     "PLN/Markov Logic Network",
     "PLN",
     "Patternist Theory",
@@ -183,7 +199,7 @@
     "PLN/Markov Logic Network/MLN example.md",
     "PLN/Markov Logic Network/Markov logic Networks.md",
     "Patternist Theory/Horn clause.md",
-    "PLN/Markov Logic Network/First order logic.md",
+    "Logic basics/First order logic.md",
     "PLN/Markov Logic Network/DEFINITION 4.1. A Markov logic network.md",
     "Patternist Theory/AIT.md",
     "Patternist Theory/A Pragmatic Patternist Perspective.md",

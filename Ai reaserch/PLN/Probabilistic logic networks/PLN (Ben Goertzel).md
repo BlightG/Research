@@ -1,2 +1,36 @@
 
-#[file]('../PLN\Ben_Goertzel,_Matthew_Iklé,_Izabela_Freire_Goertzel,_Ari_Heljakk.pdf')
+## Introduction
+
+- A systematic framework for reasoning under uncertain data of carrying out reasoning under uncertain circumstances.
+- PLN incorporates ideas from the following line of inquiry.
+	- Bayseian Probablity Theory
+	- fuzzy logic
+	- theory of imprecise probabilites
+	- term logic
+	- pei Wang's Non-Axiomatic Reasoning System
+	- [Algortithmic information Theory]([[AIT]])
+- general-high level requirements underlying the development of PLN 
+	- *To enable uncertainty-savvy versions of all known varieties of logical reasoning; including, for instance, higher-order reasoning involving quantifiers, higher-order functions, and so forth.*
+		- Why it matters: Classical logic is brittle — it deals in absolutes (true/false), but real-world knowledge is often incomplete, noisy, or fuzzy. PLN tries to model not just propositional logic but also higher-order reasoning — statements about statements, functions as variables, quantified reasoning — with uncertainty built-in.
+		- Example: "For all people, if they eat spoiled food, they might get sick." This is not a certainty, but a statistical tendency. PLN can model that kind of nuanced logic.
+	- *To reduce to crisp “theorem prover” style behavior in the limiting case where uncertainty tends to zero.* 
+		- Why it matters: This ensures PLN is backward-compatible with classical logic. When you have perfect information (certainty = 1), PLN behaves like a regular logical theorem prover. This bridges symbolic AI and probabilistic AI.
+		- Example: If we know “All humans are mortal” and “Socrates is a human” with full certainty, PLN should deduce “Socrates is mortal” as classical logic would.
+	- *To encompass inductive and abductive as well as deductive reasoning.*
+		-  **Why it matters:**  Real-world reasoning isn't just about deducing facts — it also involves **learning from experience (induction)** and **making the best explanation (abduction)**.
+			- [[Deductive reasoning (General to Specific)]]: From rule + case ⇒ result
+			- [[Inductive Reasoning (Specific to General)]]**Induction**: From case + result ⇒ rule
+			- [[Abductive Reasoning (Inference to the Best Explanation)]]**Abduction**: From rule + result ⇒ best-fit case   
+		- PLN aims to formalize all of them under one unified probabilistic framework.
+	- *To agree with probability theory in those reasoning cases where probability theory, in its current state of development, provides solutions within reasonable calculational effort based on assumptions that are plausible in the context of real-world embodied software systems.*
+		- Why it matters: Probability theory is solid but not always scalable or feasible. PLN respects probability theory in tractable domains, but doesn’t blindly follow it into intractability.
+		- Example: If you flip a fair coin, PLN would agree that P(heads) = 0.5. But if you're reasoning about the behavior of an AI agent in a dynamic world, a probabilistic logic system might be more appropriate than full Bayesian modeling.
+	- *To gracefully incorporate heuristics not explicitly based on probability theory, in cases where probability theory, at its current state of development, does not provide adequate pragmatic solutions.*
+		- Why it matters: In many domains (like commonsense reasoning or large-scale knowledge graphs), exact probabilities are hard or impossible to compute. PLN allows incorporation of heuristics like analogical reasoning, fuzzy logic, etc.
+		- Example: Heuristics might suggest that “If someone is wet, they probably were in the rain.” There’s no rigorous probability table for this, but it’s still useful knowledge.
+	-  To provide “scalable” reasoning, in the sense of being able to carry out inferences involving at least billions of premises. Of course, when the number of premises is fewer, more intensive and accurate reasoning may be carried out.
+		- Why it matters: AGI systems like OpenCog (which uses PLN) must operate on massive knowledge bases, often gathered from sensors, NLP, or learning algorithms. PLN is designed with efficiency and approximations in mind to avoid combinatorial explosion.
+		-  Example: In an AGI system, you might have a billion facts about the world. A non-scalable reasoning system would choke; PLN aims to avoid that by using tricks like attention allocation and confidence metrics to prioritize inferences.
+	-  To easily accept input from, and send input to, natural language processing software systems.
+		- **Why it matters:**  For general intelligence, language is key. PLN is built to **interact fluently with NLP systems**, both understanding and generating probabilistic logical forms from natural language.
+		- **Example:**  Input: _"If it's cloudy, it might rain."_ → PLN converts this to a probabilistic logic rule. Later: It can express its conclusion in natural language too: _"There's a chance of rain today because it's cloudy."_
